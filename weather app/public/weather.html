@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="Description" content="Weather app for Google Andela developers.">
+   <meta name="theme-color" content="#317EFB"/>
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Weather app</title>
+   <link rel="stylesheet" href="weather.css">
+   <link rel="manifest" href="/manifest.json">
+   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+   
+</head>
+<body>
+   <div class="app-wrap">
+      <p class="center">
+         <a  href="index.html" style="color:#FFF">Home</a>
+      </p>
+
+      <header>
+         <label for="search" class="visuallyhidden"></label>
+         <input type="text" autocomplete="off" id="search" class="search-box" placeholder="Search for a city..." />
+      </header>
+      <main>
+         <section class="location">
+            <div class="city"></div>
+            <div class="date"></div>
+         </section>
+         <div class="current">
+            <div class="temp"><span></span></div>
+            <div class="weather"></div>
+            <div class="time"></div>
+            <div class="hi-low"></div>
+            <div class="probable"></div>
+         </div>
+      </main>
+   </div>
+   <script src="weather.js"></script>
+</body>
+</html>
